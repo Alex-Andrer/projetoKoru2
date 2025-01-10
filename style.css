@@ -60,6 +60,7 @@ body {
   padding: 40px;
   font-size: 20px;
   background-color: var(--cor--primario);
+  border-radius: 12.5px;
 }
 
 
