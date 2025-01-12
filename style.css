@@ -75,6 +75,14 @@ body {
     padding: 20px;
 }
 
+.corpo__titulo{
+  text-align: center;
+}
+
+.corpo__mapa{
+  justify-content: center;
+  align-items: center;
+}
 /*imagens*/
 
 .corpo__image {
