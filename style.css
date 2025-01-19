@@ -33,12 +33,14 @@ body {
 .cabecalho__titulo {
   font-size: 52px;
   background-color: var(--cor--primario);
+  padding: 10px;
   /*padding: 0 100%;*/
 }
 
 .cabecalho__navbar {
   display: flex;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .cabecalho__botao {
