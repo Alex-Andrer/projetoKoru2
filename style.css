@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --cor--primario: #e0cab1;
   --cor--secundario: #dba970;
@@ -7,6 +9,7 @@
 
 /*Reset*/
 * {
+  font-family: "Roboto", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,7 +33,7 @@ body {
 
 .cabecalho__titulo {
   font-size: 52px;
-  background-color: var(--cor--primario);
+  background-color: var(--cor-destaque);
   /*padding: 0 100%;*/
 }
 
