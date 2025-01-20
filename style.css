@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --cor--primario: #e0cab1;
-  --cor--secundario: #dba970;
+  --cor--primario: #b5f1cc;
+  --cor--secundario: #d0f3e3;
   --cor-destaque: #70bbdb;
-  --botao: #718086;
+  --botao: #3a4246;
 }
 
 /*Reset*/
@@ -28,18 +28,22 @@ body {
 }
 
 .logo__image {
+  padding-top: 20px;
+  padding-bottom: 20px;
   height: 200px;
 }
 
 .cabecalho__titulo {
   font-size: 52px;
   background-color: var(--cor-destaque);
+  padding: 10px;
   /*padding: 0 100%;*/
 }
 
 .cabecalho__navbar {
   display: flex;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .cabecalho__botao {
